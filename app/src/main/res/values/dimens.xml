@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="grid_spacing_and_half">12dp</dimen>
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="fs_table_column_width">230dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="pax_row_height">48dp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+
+</resources>

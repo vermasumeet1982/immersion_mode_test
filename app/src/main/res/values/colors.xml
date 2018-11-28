@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#fff</color>
+    <color name="white_opacity60">#99FFFFFF</color>
+    <color name="link_blue">#4B97FA</color>
+    <color name="pencil_grey">#666666</color>
+    <color name="black_opacity30">#4D000000</color>
+    <color name="warm_red_pressed">#90170a</color>
+    <color name="warm_red">#CE210F</color>
+    <color name="light_grey">#F0F0F0</color>
+    <color name="mid_grey">#E0E0E0</color>
+    <color name="link_blue_pressed">#3469af</color>
+    <color name="grey">#999</color>
+    <color name="light_grey_pressed">#a8a8a8</color>
+
+
 </resources>
