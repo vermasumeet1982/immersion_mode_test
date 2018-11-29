@@ -9,5 +9,8 @@
     <dimen name="button_height">48dp</dimen>
     <dimen name="pax_row_height">48dp</dimen>
     <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="grid_spacing_and_quarter">10dp</dimen>
+    <dimen name="grid_spacing_double">16dp</dimen>
+
 
 </resources>

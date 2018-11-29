@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/grid_spacing_and_quarter"
+    android:paddingLeft="@dimen/grid_spacing_double"
+    android:paddingRight="@dimen/grid_spacing_double"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <test.com.immersivemodetest.CustomPassengerView
+        android:id="@+id/paxNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

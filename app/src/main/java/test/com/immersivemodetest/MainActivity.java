@@ -4,7 +4,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements IViewEventCallback {
 
 
     private MainFragment fragment;
@@ -19,5 +19,10 @@ public class MainActivity extends AppCompatActivity {
                 .beginTransaction();
         transaction.replace(R.id.fragment_container, fragment);
         transaction.commitAllowingStateLoss();
+    }
+
+    @Override
+    public void onValidateView(boolean isErrorPopupDisplayed) {
+
     }
 }

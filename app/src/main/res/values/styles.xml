@@ -62,4 +62,30 @@
         <item name="android:textSize">@dimen/text_size_medium</item>
     </style>
 
+    <style name="ListView">
+        <item name="android:divider">@color/mid_grey</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:animationCache">false</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:listSelector">@color/blue_wash</item>
+    </style>
+
+    <style name="ListView.OnImage">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:listSelector">@color/transparent</item>
+    </style>
+
+    <style name="ListView.OnImage.NFS">
+        <item name="android:scrollbars">none</item>
+    </style>
+
+
 </resources>
